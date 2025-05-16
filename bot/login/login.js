@@ -1146,7 +1146,7 @@ async function startBot(loginWithEmail) {
 			watch(dirAccount, async (type) => {
 				if (type == 'change' && changeFbStateByCode == false && latestChangeContentAccount != fs.statSync(dirAccount).mtimeMs) {
 					clearInterval(global.intervalRestartListenMqtt);
-					global.compulsoryStopLisening = true;
+					global.compulsoryStopLisening =false;
 					// await stopListening();
 					latestChangeContentAccount = fs.statSync(dirAccount).mtimeMs;
 					// process.exit(2);
