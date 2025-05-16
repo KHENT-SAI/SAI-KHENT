@@ -6,7 +6,7 @@
     "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
-    "intervalGetNewCookie": 1440,
+    "intervalGetNewCookie": 4320,
     "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
   },
   "antiInbox": false,
@@ -69,7 +69,7 @@
   "autoUptime": {
     "enable": false,
     "timeInterval": 180,
-    "url": "",
+    "url": "https://github.com/KHENT-SAI/SAI-KHENT",
     "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
   },
   "autoLoadScripts": {
@@ -84,7 +84,7 @@
   "restartListenMqtt": {
     "enable": true,
     "timeRestart": 3600000,
-    "delayAfterStopListening": 2000,
+    "delayAfterStopListening": 9000,
     "logNoti": true,
     "notes": "the value of timeRestart and delayAfterStopListening is milisecond, You shouldn't edit this if you don't know what it is"
   },
